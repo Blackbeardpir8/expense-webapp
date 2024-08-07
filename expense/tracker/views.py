@@ -45,3 +45,5 @@ def deleteTransaction(request,uuid):
 
     Transactions.objects.get(uuid = uuid).delete()
     return redirect('/')
+
+####
